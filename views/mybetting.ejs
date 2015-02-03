@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" class="sky-bet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="title" content="Sky Bet: Latest Cricket Odds | New Customer Free Bet | Online Betting" />
+    <meta name="keywords" content="Barclays Premier League, in-play, live betting, live football, world football, horse racing, sports betting, live sport, live commentary, online, live, sport, football, sports, sky, horse, racing, race, bet, stats, gambling, betting, live sport on tv, sport on tv">
+    <meta name="description" content="Cricket betting and all the latest Cricket odds from Sky Bet. Bet on the IPL and England Cricket, live betting available. Get the best cricket tips from our betting experts.">
+    <meta name="robots" content="noodp, noydir, index, follow">
+    <meta name="verify-v1" content="XsaYdOTPZzVxufA6J+Q5qZvz4dbLK/2GMwWeG7xO2XY=">
+    <meta name="google-site-verification" content="JNw4y3nRzZYjWeJaAiJpsq-tYv5jDmqKjPYn5kQiANI">
+
+    
+            <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.skybet.com/cricket" >
+                <link rel="canonical" href="http://www.skybet.com/cricket" />
+        <link rel="meta" href="/labels.rdf" type="application/rdf+xml" title="ICRA labels">
+    <link rel="shortcut icon" href="http://st1.skybet.com/static/sportsbook/img/favicon.ico">
+    <link rel="alternate" href="http://www.skysports.com/rss/0,20514,12101,00.xml" type="application/rss+xml" title="Sky Bet Betting Blog">
+    <link rel="apple-touch-icon" href="http://st1.skybet.com/static/sportsbook/img/appletouch.png">
+
+    <!--[if IE 8]>
+    <script type="text/javascript">
+        document.getElementsByTagName('html')[0].className += " ie8";
+    </script>
+    <![endif]-->
+
+    
+    <link rel="stylesheet" href="http://st1.skybet.com/assets/bet-1011b60e2bcfe7b62175368a1a5860f9.css">
+   <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+  	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <script>
+        function submitPlaceBetForm(element){
+			console.log("inside submitform function "+$(element).attr('data-value'));
+ 			$("input[name=matchid]").val($(element).attr('data-value'));
+ 			$("#formPlaceBet").submit();
+		}
+        </script>
+<style>
+#page{
+background-image: -webkit-linear-gradient(left,#fcfdfd 0,rgba(249, 249, 249, 0) 19.23848%,#fff 19.23848%,#fff 100%);
+}
+
+.account-bar{
+background-image: linear-gradient(to bottom,#25757F 0,#0E7B9B 50%,#426C96 50%,#01DFF1 100%);
+}
+
+#live-bet-bar .live-rowgroup td{
+background: #009bdf !important;
+width: auto;
+}
+
+.mysummary-table td{
+background: #1F7685 !important;
+}
+</style>    
+</head>
+    <body class="fixed-width">
+      <div class="new-account-bar">
+
+    <script type="text/javascript">
+        document.body.className += ' js';
+    </script>
+
+    <ul class="accessibility">
+        <li><a href="#nav">Skip to navigation</a></li>
+        <li><a href="#content">Skip to content</a></li>
+        <li><a href="#page-footer">Skip to help &amp; support</a></li>
+    </ul>
+
+
+<div class="account-bar  account-bar--bet js-myaccount">
+
+  <div class="account-bar--wrap  fixed-width-limit cf">
+
+    <!--
+    ###############################################################################################
+    NAV
+    ###############################################################################################
+    -->
+    <!-- <nav class="primary-nav">
+        <ul>
+        </ul>
+    </nav> -->
+    <!--
+    ###############################################################################################
+    NAV END
+    ###############################################################################################
+    -->
+
+    <!--
+    ###############################################################################################
+    ACCOUNT BAR
+    ###############################################################################################
+    -->
+        <div class="account-bar__left">
+            <div class="account-bar__inner  account-bar__left-inner">
+                <div class="account-bar__links-wrap">
+                    <ul class="nav  account-links">
+                          <li>
+                              <a href="http://support.skybet.com/app/home"
+                                  class="account-bar__link"
+                              >Rules</a>
+                          </li>
+                        <li>
+                            <a href="/mybetting"
+                                class="account-bar__link js-feedback__btn"
+                                data-omni="Feedback"
+                            >My Bettings</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="account-bar__right">
+            <!-- Links on the right hand side -->
+            <div class="account-bar__inner  account-bar__right-inner">
+                <div class="account-bar__links-wrap">
+                    <ul class="nav  account-links">
+                            <li>
+                                <a href="/logout"
+                                    class="account-bar__link js-myaccount-register"
+                                >Logout</a>
+                            </li>
+                            <li>
+                                <a href="/homepage"
+                                    class="js-account-bar__login account-bar__link"
+                                ><i class="icon icon--natural" data-icon="&#xF006;"></i>&nbsp;<%=userFullName%></a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!--
+    ###############################################################################################
+    ACCOUNT BAR END
+    ###############################################################################################
+    -->
+    </div>
+    <!-- fixed-width-limit -->
+
+        
+</div>
+
+    <div class="wrapper">
+        <div id="page">
+            <div >
+                <div class="content-head">
+                <h1 ><%=userFullName%>'s Summary</h1>
+                </div> <!-- /content-head -->
+		    <div>
+                        <ul class=" promos" data-cols="1">
+                    </ul>
+    </div>    
+<div >
+  <table >
+  	<tr style="border:none">
+  		<td style="border:none"><h3> Points Purchased:  <% userPointDetails.forEach(function(userdetails){ %>
+  		   		     	<%= userdetails.TOTAL_POINTS_PURCHASED %>
+  					<%});%><h3></td>
+  		 		  
+   		<td style="border:none"><h3>Current Points: <% userPointDetails.forEach(function(userdetails){ %>
+  		   		     	<%= userdetails.TOTAL_POINTS_AVAILABLE %>
+  					<%});%> <h3></td>
+ 
+   		<td style="border:none"><h3> % Returns: <% userPointDetails.forEach(function(userdetails){ %>
+  		   		     	<%= userdetails.percent %>
+  					<%});%><h3></td>
+ 	</tr>
+ 	</table>
+
+                <div class="content-head">
+                <h1 >Series Bettings</h1>
+                </div> <!-- /content-head -->
+ 	
+	<div class="mysummary-table">
+ 	<table style="color:white">
+ 	<tr>
+ 		<td> World Cup Winners: </td>
+ 		<td> India </td>
+ 		<td> Runners Up: </td>
+ 		<td> New Zealand </td>
+ 		<td> Man of the Series: </td>
+ 		<td> Virat Kohli </td>
+ 		
+ 	</tr>
+ 	<tr>
+ 		<td> Batsman of the Tournament: </td>
+ 		<td> Virat Kohli </td>
+ 		<td> Bowler of the Tournament: </td>
+ 		<td> Dale Steyn </td>
+ 		<td> Group A Winner: </td>
+ 		<td> India </td> 		
+ 	</tr>
+ 	<tr>
+ 		<td> Group B Winner: </td>
+ 		<td> Australia </td>
+ 		<td> Group A Second: </td>
+ 		<td> South Africa </td>
+ 		<td> Group B Second: </td>
+ 		<td> New Zealand </td>
+ 		
+ 	</tr>
+  </table>
+  </div>
+</div>
+
+                <div class="content-head">
+                <h1 >Individual Match Bettings</h1>
+                </div> <!-- /content-head -->
+
+<div id="live-bet-bar" data-starting-events="[17462302,17462230,17462231,17440186,17462499,17464648,17464649,17464647,17461683,17465833,17465826,17465828,17465827,17462484,17313018,17425317,17425319]"
+     class="live-bet-bar live-betting-panel tab-container">
+
+    <div class="event-list uninitialized">
+
+    <div
+     class="mkt mkt-live island live-content no-redraw mkt-WDW" 
+     style="display: block;"
+>
+        <table class="live-table">
+        <colgroup>
+            <col class="t10"></col>
+            <col></col>
+            <col class="t10"></col>
+            <col class="t7"></col>
+            <col class="t7"></col>
+            <col class="t7"></col>
+            <col class="t7"></col>
+            <col class="t7"></col>
+            <col class="t7"></col>
+        </colgroup>
+            <thead>
+            <tr>
+                <th scope="rowgroup" colspan="2" class="event-class-name">Match Details</th>
+                <th><span class="scoreheader">Which Team Wins Match</span></th>
+                                <th scope="col" colspan="2">Who wins Toss</th>
+                                <th scope="col" colspan="2">Batting First/Chasing Wins</th>
+                                <th scope="col" colspan="2">Runs Scored in a specific over</th>
+                                <th scope="col" colspan="2">Man of the Match</th>
+                                <th scope="col" colspan="2">Total Points Scored</th>
+                           </tr>
+            </thead>
+            <% userBettingDetails.forEach(function(userbettingdetails){ %>
+            <tbody class="live-rowgroup">
+				<tr >
+					<td rowspan="4">	
+						<span>
+						<form style="display: none" action="/enterbets" method="post" id='formPlaceBet'><input type="hidden" name="matchid" /></form>		
+						<a href="#" data-value=<%= userbettingdetails.match_id %> onclick=submitPlaceBetForm(this)><%= userbettingdetails.match_name %></a>
+						</span>
+					</td>
+					<td >
+						<span class="odds-container">
+							<span style="color: rgb(7, 7, 61); font-weight:bold; width: 100px !important;">Actual Result</span>
+						</span>
+					</td>
+					<td class="noodds-cell t14-2 sels3" scope="col">
+						<span class="odds-container"><%= userbettingdetails.match_result%></span>
+					</td>
+					<td colspan="2" class="noodds-cell t14-2 sels3">
+						<span class="odds-container"><%= userbettingdetails.toss_result%></span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container"><%= userbettingdetails.result_basedon_order%></span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container">
+							<%= userbettingdetails.runs_in_over%>
+						</span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container">
+							<%= userbettingdetails.mom_result%>
+						</span>
+					</td>
+					<td rowspan="4">	
+						<%= userbettingdetails.user_total_points_won_in_match%>
+					</td>
+				</tr>
+ 				<tr>
+					<td>
+							<span class="odds-container">
+								<span style="color: rgb(7, 7, 61); font-weight:bold; width: 100px !important;"">Bets Placed</span>
+							</span>
+					</td>
+					<td class="noodds-cell t14-2 sels3" scope="col">
+						<span class="odds-container"><%= userbettingdetails.user_team_bet%></span>
+					</td>
+					<td colspan="2" class="noodds-cell t14-2 sels3">
+						<span class="odds-container"><%= userbettingdetails.user_toss_bet%></span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container"><%= userbettingdetails.user_result_order_bet%></span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container">
+							<%= userbettingdetails.user_runs_in_over_bet%>
+						</span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container">
+							<%= userbettingdetails.user_mom_bet%>
+						</span>
+					</td>
+				</tr>
+ 				<tr >
+					<td>
+							<span class="odds-container">
+								<span style="color: rgb(7, 7, 61); font-weight:bold; width: 100px !important;">Bet Amounts</span>
+							</span>
+					</td>
+					<td class="noodds-cell t14-2 sels3" scope="col">
+						<span class="odds-container"><%= userbettingdetails.user_team_bet_points%></span>
+					</td>
+					<td colspan="2" class="noodds-cell t14-2 sels3">
+						<span class="odds-container"><%= userbettingdetails.user_toss_bet_points%></span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container"><%= userbettingdetails.user_result_order_bet_points%></span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container">
+							<%= userbettingdetails.user_runs_in_over_bet_points%>
+						</span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container">
+							<%= userbettingdetails.user_mom_bet_points%>
+						</span>
+					</td>
+				</tr>
+ 				<tr >
+					<td>
+							<span class="odds-container">
+									<span style="color: rgb(7, 7, 61); font-weight:bold; width: 100px !important;">Points Scored</span>
+							</span>
+					</td>
+					<td class="noodds-cell t14-2 sels3" scope="col">
+						<span class="odds-container"><%= userbettingdetails.user_results_points_won%></span>
+					</td>
+					<td colspan="2" class="noodds-cell t14-2 sels3">
+						<span class="odds-container"><%= userbettingdetails.user_toss_points_won%></span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container"><%= userbettingdetails.user_order_points_won%></span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container">
+							<%= userbettingdetails.user_runs_in_over_points_won%>
+						</span>
+					</td>
+					<td colspan="2" class="odds-cell t14-2 sels3">
+						<span class="odds-container">
+							<%= userbettingdetails.user_mom_points_won%>
+						</span>
+					</td>
+				</tr>
+
+        	</tbody>
+  			<%});%>
+                    </table>
+</div>
+
+    </div>
+</div>
+
+    <div>
+    </div>
+
+
+            </div> <!-- /content -->
+
+        </div> <!-- /page -->
+        
+        <div id="page-footer">
+
+            <div class="fl">
+                <h3 class="hecto">
+                    <a href="http://support.skybet.com/app/home" rel="external"></a>
+                </h3>
+                <ul class="inline-list" id="mbet_switch">
+                    <li>
+                        <a class="js-site-switch" href="/go/switch?site=mobile" data-omni="Footer Classic to Lite"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="gw fl">
+                <div class="g g18">
+                    <div id="page-footer-main">
+
+
+
+                        <ul class="inline-list" id="faq-links">
+                            <li>
+                                <b></b>
+                            </li>
+                                                            <li>
+                                    <a href="https://support.skybet.com/app/answers/detail/a_id/27"
+                                        rel="external nofollow"
+                                        target="_blank"
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a href="https://support.skybet.com/app/answers/detail/a_id/26/"
+                                        rel="external nofollow"
+                                        target="_blank"
+                                        ></a>
+                                </li>
+                                <li>
+                                    <a href="https://support.skybet.com/app/answers/detail/a_id/162"
+                                        rel="external nofollow"
+                                        target="_blank"
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a href="https://support.skybet.com/app/rules/c/39/"
+                                        rel="external nofollow"
+                                        target="_blank"
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a href="?open=recover" class="js-myaccount-recover"></a>
+                                </li>
+                                                    </ul>
+
+                    </div>
+                </div>
+                <div class="g g6">
+                    <form id="footer-search" class="cf">
+                        <fieldset>
+                            <legend class="accessibility">Search Sky Bet&rsquo;s frequently asked questions</legend>
+                            <label for="faq-search" class="accessibility"></label>
+                            <input type="text" name="searchstring" id="faq-search" placeholder="Search FAQs" />
+                            <input type="image" src="http://st1.skybet.com/static/common/img/forms/footer-search.gif" id="faq-submit" alt="Search" />
+                        </fieldset>
+                    </form>
+                    <p>
+                        <a href="https://support.skybet.com/app/contact" target="_blank" rel="external"></a>
+                    </p>
+                </div>
+            </div>
+
+        </div><!-- /page-footer -->
+
+    </div> <!-- /wrapper -->
+
+    </div>
+
+    
+    </body>
+</html>
